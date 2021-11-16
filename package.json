@@ -1,0 +1,46 @@
+{
+  "name": "equation",
+  "version": "1.0.0",
+  "description": "equation educational center",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development node app.js",
+    "start:prod": "NODE_ENV=production node app.js",
+    "nodemon": "NODE_ENV=development node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "education",
+    "classes",
+    "entrance",
+    "prepration"
+  ],
+  "author": "Webkodz Consultants Pvt Ltd",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "fs": "0.0.1-security",
+    "googleapis": "^59.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "ngx-toastr": "^13.0.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "xoauth2": "^1.2.0"
+  }
+}

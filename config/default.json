@@ -1,0 +1,8 @@
+{
+    "App":{
+        "SECRET_CODE" : "test_edexa",
+        "PORT" : 5607,
+        "SALT_ROUNDS": 10,
+        "TokenExpiresIn":604800 
+    }
+}
